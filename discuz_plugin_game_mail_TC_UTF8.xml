@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3]]></item>
+	<item id="Time"><![CDATA[2013-06-15 18:12]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[郵件定制提醒]]></item>
+			<item id="identifier"><![CDATA[game_mail]]></item>
+			<item id="description"><![CDATA[
+一，後台設置︰
+1，回復帖子提醒，後台全局開啟和關閉
+2，設置哪些用戶組可以選擇哪些板塊主題郵件郵件提醒，並且開關設置是否開啟此功能
+二，前台用戶設置︰
+用戶自定義選擇哪些板塊新帖需要郵件通知]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[game_mail/]]></item>
+			<item id="copyright"><![CDATA[雲飛【暢游網絡】http://www.sunpengfei.cn]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[forumemail]]></item>
+					<item id="menu"><![CDATA[郵件定制提醒]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[3]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[forumemail]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[板塊設置]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[forum_offset]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[2]]></item>
+					<item id="1"><![CDATA[36]]></item>
+					<item id="2"><![CDATA[37]]></item>
+					<item id="3"><![CDATA[39]]></item>
+					<item id="4"><![CDATA[50]]></item>
+					<item id="5"><![CDATA[40]]></item>
+					<item id="6"><![CDATA[41]]></item>
+					<item id="7"><![CDATA[42]]></item>
+					<item id="8"><![CDATA[44]]></item>
+					<item id="9"><![CDATA[45]]></item>
+					<item id="10"><![CDATA[51]]></item>
+					<item id="11"><![CDATA[47]]></item>
+					<item id="12"><![CDATA[48]]></item>
+					<item id="13"><![CDATA[49]]></item>
+				</item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[新帖郵件提醒開關]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[newthread_isopen]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[回復主題提醒開關]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[reply_isopen]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="language">
+			<item id="templatelang">
+				<item id="activate_mailbox_first"><![CDATA[你首先需要激活你的郵箱]]></item>
+				<item id="activate_mailbox_message"><![CDATA[填寫你常用的郵箱，系統會給你的郵箱發送一封含有激活鏈接的郵件，把激活鏈接復制到瀏覽器進行訪問就可以激活你的郵箱,然後你就能可以設置郵件提醒。]]></item>
+				<item id="click_activate_mailbox"><![CDATA[點這里發送驗證激活郵件]]></item>
+				<item id="modify_email"><![CDATA[修改郵箱地址]]></item>
+				<item id="reminder_mail_message_1"><![CDATA[系統會在你超過]]></item>
+				<item id="reminder_mail_message_2"><![CDATA[當論壇有新帖或者有回復時，自動給你發送提醒郵件，你可以選擇只接受某些板塊主題更新的提醒]]></item>
+				<item id="mail_forumset"><![CDATA[板塊選擇]]></item>
+				<item id="mail_frequency"><![CDATA[郵件發送頻率]]></item>
+				<item id="send_real_time"><![CDATA[實時發送]]></item>
+				<item id="send_once_per_day"><![CDATA[每天發送一次]]></item>
+				<item id="send_once_per_week"><![CDATA[每周發送一次]]></item>
+				<item id="mail_send_your_mail"><![CDATA[提醒郵件會發送到你當前的郵箱]]></item>
+				<item id="modify_mailbox"><![CDATA[修改郵箱]]></item>
+				<item id="save"><![CDATA[保存]]></item>
+			</item>
+		</item>
+		<item id="license"><![CDATA[  [*]本插件版權歸屬插件作者所有.
+[*]未經插件作者許可,任何人不得以任何形式在任何地方發布/轉發
+[*][b]插件作者:[/b]雲飛
+[*][b]作品簡介:[/b]郵件定制提醒
+[*]如有任何關于使用上的疑問,請至[url]http://www.sunpengfei.cn/forum.php?gid=38[/url]提出.
+[*]最後,感謝您使用我們的插件,也希望您能夠給我們提供更好的意見([url=http://www.sunpengfei.cn/]請點擊這里進入我的個人網站[/url]).]]></item>
+		<item id="intro"><![CDATA[
+			[color=DeepSkyBlue][b]關于本插件的相關信息:[/b][/color]
+				名稱: [b]郵件定制提醒[/b]
+				版本: [b]1.0[/b]
+				作者: 雲飛
+				
+				2013年6月15日
+			]]></item>
+	</item>
+</root>

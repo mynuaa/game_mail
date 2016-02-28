@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3]]></item>
+	<item id="Time"><![CDATA[2013-06-15 18:12]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[邮件定制提醒]]></item>
+			<item id="identifier"><![CDATA[game_mail]]></item>
+			<item id="description"><![CDATA[
+一，后台设置：
+1，回复帖子提醒，后台全局开启和关闭
+2，设置哪些用户组可以选择哪些板块主题邮件邮件提醒，并且开关设置是否开启此功能
+二，前台用户设置：
+用户自定义选择哪些板块新帖需要邮件通知]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[game_mail/]]></item>
+			<item id="copyright"><![CDATA[云飞【畅游网络】http://www.sunpengfei.cn]]></item>
+			<item id="version"><![CDATA[1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[forumemail]]></item>
+					<item id="menu"><![CDATA[邮件定制提醒]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[7]]></item>
+					<item id="adminid"><![CDATA[3]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[forumemail]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[板块设置]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[forum_offset]]></item>
+				<item id="type"><![CDATA[forums]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[2]]></item>
+					<item id="1"><![CDATA[36]]></item>
+					<item id="2"><![CDATA[37]]></item>
+					<item id="3"><![CDATA[39]]></item>
+					<item id="4"><![CDATA[50]]></item>
+					<item id="5"><![CDATA[40]]></item>
+					<item id="6"><![CDATA[41]]></item>
+					<item id="7"><![CDATA[42]]></item>
+					<item id="8"><![CDATA[44]]></item>
+					<item id="9"><![CDATA[45]]></item>
+					<item id="10"><![CDATA[51]]></item>
+					<item id="11"><![CDATA[47]]></item>
+					<item id="12"><![CDATA[48]]></item>
+					<item id="13"><![CDATA[49]]></item>
+				</item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[新帖邮件提醒开关]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[newthread_isopen]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[回复主题提醒开关]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[reply_isopen]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+        <item id="installfile"><![CDATA[install.php]]></item>
+        <item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+        <item id="language">
+            <item id="templatelang">
+                <item id="activate_mailbox_first"><![CDATA[你首先需要激活你的邮箱]]></item>
+                <item id="activate_mailbox_message"><![CDATA[填写你常用的邮箱，系统会给你的邮箱发送一封含有激活链接的邮件，把激活链接复制到浏览器进行访问就可以激活你的邮箱,然后你就能可以设置邮件提醒。]]></item>
+                <item id="click_activate_mailbox"><![CDATA[点这里发送验证激活邮件]]></item>
+                <item id="modify_email"><![CDATA[修改邮箱地址]]></item>
+                <item id="reminder_mail_message_1"><![CDATA[系统会在你超过]]></item>
+                <item id="reminder_mail_message_2"><![CDATA[当论坛有新帖或者有回复时，自动给你发送提醒邮件，你可以选择只接受某些板块主题更新的提醒]]></item>
+                <item id="mail_forumset"><![CDATA[板块选择]]></item>
+                <item id="mail_frequency"><![CDATA[邮件发送频率]]></item>
+                <item id="send_real_time"><![CDATA[实时发送]]></item>
+                <item id="send_once_per_day"><![CDATA[每天发送一次]]></item>
+                <item id="send_once_per_week"><![CDATA[每周发送一次]]></item>
+                <item id="mail_send_your_mail"><![CDATA[提醒邮件会发送到你当前的邮箱]]></item>
+                <item id="modify_mailbox"><![CDATA[修改邮箱]]></item>
+                <item id="save"><![CDATA[保存]]></item>
+            </item>
+		</item>
+		<item id="license"><![CDATA[  [*]本插件版权归属插件作者所有.
+[*]未经插件作者许可,任何人不得以任何形式在任何地方发布/转发
+[*][b]插件作者:[/b]云飞
+[*][b]作品简介:[/b]邮件定制提醒
+[*]如有任何关于使用上的疑问,请至[url]http://www.sunpengfei.cn/forum.php?gid=38[/url]提出.
+[*]最后,感谢您使用我们的插件,也希望您能够给我们提供更好的意见([url=http://www.sunpengfei.cn/]请点击这里进入我的个人网站[/url]).]]></item>
+		<item id="intro"><![CDATA[
+			[color=DeepSkyBlue][b]关于本插件的相关信息:[/b][/color]
+				名称: [b]邮件定制提醒[/b]
+				版本: [b]1.0[/b]
+				作者: 云飞
+				
+				2013年6月15日
+			]]></item>
+	</item>
+</root>
